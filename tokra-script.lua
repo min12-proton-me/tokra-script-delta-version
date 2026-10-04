@@ -9,7 +9,7 @@ local Window = Rayfield:CreateWindow({
    ConfigurationSaving = {
       Enabled = false
    },
-   KeySystem = false,
+   KeySystem = true,
    KeySettings = {
       Title = "Enter Key",
       Subtitle = "",
