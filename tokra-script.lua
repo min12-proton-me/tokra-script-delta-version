@@ -1,7 +1,5 @@
 local Rayfield = loadstring(game:HttpGet("https://sirius.menu/rayfield"))()
 
-setclipboard("nevertokra")
-
 local Window = Rayfield:CreateWindow({
    Name = "Tokra System | Key Verification",
    LoadingTitle = "Loading System",
@@ -13,11 +11,11 @@ local Window = Rayfield:CreateWindow({
    KeySettings = {
       Title = "Enter Key",
       Subtitle = "",
-      Note = "Key: nevertokra",
+      Note = "no key",
       FileName = "TokraKey",
       SaveKey = true,
       GrabKeyFromSite = false,
-      Key = {"nevertokra"}
+      Key = {""}
    }
 })
 
