@@ -5,17 +5,17 @@ local Window = Rayfield:CreateWindow({
    LoadingTitle = "Loading System",
    LoadingStatus = "Loading...",
    ConfigurationSaving = {
-      Enabled = false
+      Enabled = true
    },
    KeySystem = true,
    KeySettings = {
       Title = "Enter Key",
-      Subtitle = "",
-      Note = "no key",
+      Subtitle = "Wellcome to Not My Tokra Script",
+      Note = "Key is 147",
       FileName = "TokraKey",
       SaveKey = true,
       GrabKeyFromSite = false,
-      Key = {""}
+      Key = {"147"}
    }
 })
 
